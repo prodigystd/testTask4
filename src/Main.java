@@ -60,6 +60,17 @@ public class Main {
         trinagleArray[5] = new int[]{5, 7, 3, 5, 1, 4};
 
         System.out.println(findSmallestTrialgleSum(trinagleArray));
+        int[][] secondTrinagleArray = new int[4][];
+        secondTrinagleArray[0] = new int[]{1};
+        secondTrinagleArray[1] = new int[]{2, 4};
+        secondTrinagleArray[2] = new int[]{5, 1, 4};
+        secondTrinagleArray[3] = new int[]{2, 3, 4, 5};
+
+        System.out.println(findSmallestTrialgleSum(secondTrinagleArray));
+
+
+
+
 
 
 
